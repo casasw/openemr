@@ -27,8 +27,8 @@ services:
     restart: always
     image: openemr/openemr:latest@sha256:1d8073d3acfc15b53e771f264b84c0be41a0f0c998f413af39811e1c2e5d8061
     ports:
-    - 8080:80
-    - 8443:443
+    - 18080:80
+    - 18443:443
     volumes:
     - logvolume01:/var/log
     - sitevolume:/var/www/localhost/htdocs/openemr/sites
